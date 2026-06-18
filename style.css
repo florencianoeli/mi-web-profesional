@@ -1,0 +1,218 @@
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#ffffff;
+color:#222;
+line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+background:linear-gradient(135deg,#0A2540,#0077ff);
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.hero img{
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid white;
+box-shadow:0 0 20px rgba(255,255,255,.4);
+}
+
+.hero h1{
+margin-top:20px;
+font-size:42px;
+}
+
+.hero h2{
+margin-top:10px;
+font-weight:normal;
+}
+
+.hero p{
+margin-top:15px;
+font-size:18px;
+}
+
+/* REDES */
+
+.redes{
+margin-top:25px;
+}
+
+.redes a{
+color:white;
+font-size:28px;
+margin:0 10px;
+transition:0.3s;
+}
+
+.redes a:hover{
+color:#9ed1ff;
+}
+
+/* SECCIONES */
+
+section{
+padding:70px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#0A2540;
+}
+
+/* SOBRE MI */
+
+.sobre p{
+max-width:900px;
+margin:auto;
+text-align:center;
+font-size:18px;
+}
+
+/* AUDIO */
+
+.audio{
+text-align:center;
+background:#f4f8fc;
+}
+
+.audio audio{
+width:100%;
+max-width:600px;
+}
+
+/* SERVICIOS */
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+color:#0077ff;
+margin-bottom:10px;
+}
+
+/* GALERIA */
+
+.galeria{
+background:#f4f8fc;
+}
+
+.fotos{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.fotos img{
+width:250px;
+height:300px;
+object-fit:cover;
+border-radius:15px;
+box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+/* PROGRAMA */
+
+.programa p{
+max-width:900px;
+margin:auto;
+text-align:center;
+font-size:18px;
+}
+
+/* CONTACTO */
+
+.contacto form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contacto input,
+.contacto textarea{
+padding:15px;
+border:1px solid #ccc;
+border-radius:8px;
+font-size:16px;
+}
+
+.contacto textarea{
+height:150px;
+resize:none;
+}
+
+.contacto button{
+background:#0077ff;
+color:white;
+padding:15px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+}
+
+.contacto button:hover{
+background:#0056b3;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:30px;
+}
+
+.hero img{
+width:170px;
+height:170px;
+}
+
+.fotos img{
+width:100%;
+max-width:320px;
+}
+
+}
