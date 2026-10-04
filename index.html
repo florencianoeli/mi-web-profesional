@@ -145,18 +145,20 @@ compartiendo historias, curiosidades y los clásicos que marcaron generaciones.
 
 <h2>Contacto</h2>
 
-<form>
+<form action="https://formsubmit.co/florenciacalisto23@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://florencianoeli.github.io/mi-web-profesional/">
 
-<input type="text" placeholder="Nombre">
+    <p>Nombre o Empresa: <br>
+    <input type="text" name="nombre" required></p>
 
-<input type="email" placeholder="Correo electrónico">
+    <p>Correo electrónico: <br>
+    <input type="email" name="email" required></p>
 
-<textarea placeholder="Escribí tu mensaje"></textarea>
+    <p>¿En qué te puedo ayudar?: <br>
+    <textarea name="mensaje" rows="4" required></textarea></p>
 
-<button type="submit">
-Enviar mensaje
-</button>
-
+    <button type="submit">Enviar Mensaje</button>
 </form>
 
 </section>
