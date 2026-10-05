@@ -216,3 +216,7 @@ max-width:320px;
 }
 
 }
+header img {
+    object-fit: cover;
+    object-position: top center;
+}
